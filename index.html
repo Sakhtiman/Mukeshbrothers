@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Mukesh & Brothers </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- jQuery (required by Bootstrap) -->
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+ 
+</head>
+<body>
+<header>
+	
+	
+	 			<nav class=" navbar navbar-expand-lg navbar-light" style ="background-color: #87CEEB;">
+	 				<div class="container-fluid">
+	 					 <!-- <div class="d-flex align-items-center">   -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="" class="navbar-brand ">Mukesh & Brothers</a> 
+              <!-- </div>  -->
+	 				<div class="search ">
+    <input type="text" class="form-control" placeholder="Search for products">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary btn-sm" type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+</div>
+
+
+
+<div class="collapse navbar-collapse align-items-center" id="navbarnav">
+    <!-- Small screen navigation items -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fa fa-user-plus"></i> LOGIN
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fa fa-shopping-cart"></i> Cart
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Products</a>
+        </li>
+    </ul>
+
+    <!-- Large screen navigation items (hidden initially) -->
+    <ul class="navbar-nav ml-auto d-lg-none">
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fa fa-user-plus"></i> My Account
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">My Orders</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Coupons</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">My Cart</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Notifications</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Trending</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+        </li>
+    </ul>
+</div>
+
+</div>
+<!-- </div> -->
+</nav>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    const secondNavItems = document.querySelector(".d-lg-none");
+
+    navbarToggler.addEventListener("click", function() {
+        secondNavItems.classList.toggle("show");
+    });
+});
+</script>
+
+  
+  <!-- Add JavaScript to trigger search on Enter key press -->
+  <script>
+    document.getElementById("searchInput").addEventListener("keyup", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        // Perform your search action here
+        console.log("Search triggered");
+      }
+    });
+  </script>
+
+    	 <div class="logo">
+            <img src="">
+        </div>
+    </nav>
+    </header>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"> <!-- Set interval here -->
+  <!-- ... Your carousel content ... -->
+
+
+ 
+   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img1.jpg" class="d-block w-10 h-20 " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>New sunflower now at 127.7</h5>
+        <p></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img2.jpg" class="d-block w-100 h-50 img-fluid" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img4.jpg" class="d-block w-100 h-50 img-fluid" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+
+ <script>
+  $(document).ready(function() {
+    $('.carousel').carousel();
+  });
+</script>   
+</body>
+</html>
